@@ -1,0 +1,9 @@
+<h1>Figure Show Page</h1>
+
+<h2>Figure Name:</h2>
+ <%=@figure.name%>
+
+<h3>Figure Landmarks's:</h3>
+ <% @figure.landmarks.each do |landmark|%>
+ <%= landmark.name%>
+<% end %>
